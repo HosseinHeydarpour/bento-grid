@@ -3,11 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
     <title>Bento Grid</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Hello</h1>
+    <div class="container bento-grid-container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="d-flex flex-column gap-4">
+            <div
+              class="vertical-card d-flex flex-column bg-yellow-100 py-5 px-4 rounded-3"
+            >
+              <h3 class="text-black fw-500">
+                Create and schedule content
+                <em class="text-purple-500 font-italic">quicker</em>
+              </h3>
+              <img src="assets/images/illustration-create-post.webp" alt="" />
+            </div>
+            <div
+              class="vertical-card d-flex flex-column bg-yellow-500 py-4 px-4 rounded-3"
+            >
+              <h3 class="text-black fw-500">Write your content using AI.</h3>
+              <img src="assets/images/illustration-ai-content.webp" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div
+            class="horizontal-card bg-purple-500 rounded-3 d-flex align-items-center flex-column"
+          >
+            <h2 class="text-white">
+              Social Media <span>10x</span> <em>Faster with AI</em>
+            </h2>
+            <img src="./assets/images/illustration-five-stars.webp" alt="" />
+            <span>Over 4,000 5-star reviews</span>
+          </div>
+        </div>
+        <div class="col-lg-3"></div>
+      </div>
     </div>
   </body>
 </html>
