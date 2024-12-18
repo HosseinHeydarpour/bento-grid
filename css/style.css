@@ -11936,4 +11936,61 @@ body {
   width: 160px;
 }
 
+.vertical-card--manage {
+  position: relative;
+  padding-top: 50px;
+  overflow: hidden;
+}
+.vertical-card--manage img {
+  width: 100%;
+  position: absolute;
+  top: 4px;
+  right: -74px;
+}
+.vertical-card--maintain {
+  position: relative;
+  overflow: hidden;
+}
+.vertical-card--maintain img {
+  position: absolute;
+  position: absolute;
+  width: 82% !important;
+  bottom: -72px;
+}
+.vertical-card--schedule {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  max-width: 13.75rem;
+  padding-left: 20px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.vertical-card--schedule img {
+  position: absolute;
+  position: absolute;
+  /* height: 61%; */
+  /* object-fit: cover; */
+  top: 19%;
+  right: -135px;
+}
+.vertical-card--schedule p {
+  margin-top: auto;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.vertical-card--audience {
+  padding: 25px;
+  font-weight: 400;
+}
+.vertical-card--audience h3, .vertical-card--audience .h3 {
+  font-size: 62px;
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=style.css.map */
